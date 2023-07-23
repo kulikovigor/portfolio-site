@@ -1,0 +1,362 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header  {
+    height: 765px;
+    width: 100%;
+    background-image: url(/resources/photo_own.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.header_container {
+    width: 1155px;
+    margin: 0 auto;
+}
+
+.logo { 
+    padding-left: 9px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    display: block;
+}
+
+.logo_link {
+    margin-top: 36px;
+    display: inline-block;
+    width: 130px;
+    background-color: #000000;
+    border-radius: 100px;
+}
+
+ .nav_space {
+    margin-top: 33px;
+    float: right;
+ }
+
+.nav__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 41px;
+    transition: 0.5s;
+}
+
+.nav__link:hover, .contacts_type:hover {
+    color: #1BFF07;
+}
+
+.tittle {
+    margin-top: 252px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 70px;
+    display: flex;
+    width: 919px;
+
+    letter-spacing: -2.4px;
+    color: #1BFF07;
+}
+
+.title_job p {
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+}
+
+.title_job {
+    margin-bottom: 29px;
+}
+
+.main_container {
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 150px;
+}
+
+.projects {
+    padding-top: 150px ;
+}
+
+.projects_inline {
+    width: 1155px;
+    margin-left: 120px;
+    margin: 0 auto;
+}
+
+.project_tittle, .competencies_tittle {
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: -1.65px;
+    color: #FFF;
+
+}
+
+.project_tittle {
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.project_name {
+    left: 50px;
+    bottom: 94px;
+    font-size: 35px;
+    font-weight: 400;
+
+    letter-spacing: -1.05px;
+    position: absolute;
+    color: #FFF;
+}
+
+.project_text {
+    left: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.9px;
+    position: absolute;
+    color: #FFF;
+}  
+
+.project_item  {
+    position: relative;
+}
+
+.projects_list {
+    margin-bottom: 80px;
+}
+
+.fullbutton {
+    display: block;
+    width: 582px;
+    height: 153px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #1BFF07;
+
+    padding-top: 56px;
+    line-height: 39px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.9px;
+    color: #000;
+}
+
+.fullbutton:hover {
+    color: #1BFF07;
+    background: #000;
+    border-radius: 4.674px;
+    border: 1px solid #1BFF07;
+}
+
+.competencies_tittle {
+    margin-top: 150px;
+    margin-bottom: 48px;
+    line-height: normal;
+}
+
+.competencies_inline {
+    width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.competencies_name {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.05px;
+    color: #1BFF07;
+    margin-bottom: 15px;
+}
+
+.competencies_text {
+    margin-bottom: 60px;
+    width: 778px;
+    line-height: normal;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.66px;
+    color: #FFF;
+}
+
+.html-css::before, .javascript::before, .framework::before, .adaptive::before {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-bottom: 12px;
+}
+.html-css::before {
+    background-image: url(/resources/html.png);
+}
+.javascript::before {
+    background-image: url(/resources/js.png);
+}
+.framework::before {
+    background-image: url(/resources/bibl.png);
+}
+.adaptive::before{
+    background-image: url(/resources/mob.png);
+}
+
+
+.skills_inline {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.skills_tittle {
+    margin-bottom: 74px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: -1.05px;
+    color: #FFF;
+}
+
+.skills_text {
+    width: 749px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.66px;
+    color: #FFF;
+}
+
+
+.skills_name {
+    margin-bottom: 15px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -1.65px;
+    color: #1BFF07;
+}
+
+.skills_background {
+
+    padding: 40px 40px;
+    width: 1150px;
+    height: 283px;
+
+    border-radius: 30px;
+    background-color: #191C19;
+}
+
+.skills_types_dev_site {
+    margin-bottom: 74px;
+}
+.skills_types_site_layout {
+    margin-bottom: 137px;
+}
+.skills_types_mob {
+    margin-bottom: 150px;
+}
+
+.contacts {
+    height: 717px;
+    border-radius: 30px;
+    background: #191C19;
+}
+
+.contacts_inline {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.contacts_place {
+    position: absolute;
+    top: 320px;
+    left: 125px;
+    width: 310px;
+    height: 308px;
+}
+
+.contacts_image {
+    position: relative;
+    left: 673px;
+}
+
+.contacts_text {
+    margin-bottom: 28px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.05px;
+    color: #FFF;
+}
+
+.contacts_type {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer_line {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #FFF;
+}
+
+.footer_space {
+ background-color: #000;
+}
+
+.footter_textspace {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.footer_title {
+    margin-bottom: 66px;
+    padding-top: 76px;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.66px;
+    color: #000;
+}
+
+.footer_text {
+    padding-bottom: 90px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.6px;
+    color: #000;
+    opacity: 0.5;
+}
