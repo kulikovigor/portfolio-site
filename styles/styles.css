@@ -11,7 +11,7 @@ body {
 .header  {
     height: 765px;
     width: 100%;
-    background-image: url(resources/photo_own.png);
+    background-image: url(./resources/photo_own.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -211,16 +211,16 @@ h1 {
     margin-bottom: 12px;
 }
 .html-css::before {
-    background-image: url(resources/html.png);
+    background-image: url(./resources/html.png);
 }
 .javascript::before {
-    background-image: url(resources/js.png);
+    background-image: url(./resources/js.png);
 }
 .framework::before {
-    background-image: url(resources/bibl.png);
+    background-image: url(./resources/bibl.png);
 }
 .adaptive::before{
-    background-image: url(resources/mob.png);
+    background-image: url(./resources/mob.png);
 }
 
 
