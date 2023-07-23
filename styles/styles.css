@@ -11,7 +11,7 @@ body {
 .header  {
     height: 765px;
     width: 100%;
-    background-image: url(/resources/photo_own.png);
+    background-image: url(resources/photo_own.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
